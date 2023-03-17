@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qlhocsinh</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h3>Product Management</h3>
+    <div class="container">
+      <table class="tableContainer">
+        <tr>
+          <td><label for="">id:</label></td>
+          <td><input type="text" id="stt" /></td>
+        </tr>
+        <tr>
+          <td><label for="">Tên sản phẩm:</label></td>
+          <td><input type="text" id="namePro" /></td>
+        </tr>
+        <tr>
+          <td><label for="">Giá sản phẩm:</label></td>
+          <td><input type="text" id="giaPro" /></td>
+        </tr>
+        <tr>
+          <td><label for="">Mã sản phẩm:</label></td>
+          <td><input type="text" id="maPro" /></td>
+        </tr>
+        <tr>
+          <td><label for="">Số lượng:</label></td>
+          <td><input type="text" id="soPro" /></td>
+        </tr>
+      </table>
+
+      <hr style="margin-top: 8px" />
+      <br />
+      <button onclick="addProduct()" class="btnAdd">Add Product</button>
+      <button onclick="handleEdit(id)" class="btnEdit">Edit Product</button>
+    </div>
+    <div class="containertwo">
+      <table border="1px" id="tableProduct">
+        <tr>
+          <td>Stt</td>
+          <td>Tên sản phẩm</td>
+          <td>Giá sản phẩm</td>
+          <td>Mã sản phẩm</td>
+          <td>số lượng</td>
+          <td>Button</td>
+          <!-- <td><button>Sửa</button></td>
+          <td><button>Xóa</button></td> -->
+        </tr>
+      </table>
+
+      <script src="./index.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-weight: 900;
+    font-family: "Inconsolata", 'Inconsolata', monospace;
+}
+
+.container {
+    width: 30%;
+    height: 330px;
+    background-color: rgb(179, 179, 179);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    float: left;
+    clear: both;
+}
+
+.btnAdd{
+    margin: 10px 35px;
+    padding: 10px;
+}
+
+.btnEdit{
+    margin: 10px 12px;
+    padding: 10px;
+}
+
+.containertwo {
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+.clickColor {
+    background-color: rgb(236, 167, 77);
+}
+
+input{
+    width: 80%;
+    margin-left: 55px;
+}   
+
+h3 {
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+#tableProduct tr td {
+    padding: 10px;
+}
+
+.tableContainer{
+    height: 230px;
+
+}
+
+
+/* responsive */
+@media only screen and (max-width: 390px) {
+    body {
+      background-color: rgb(79, 13, 247);
+    }
+
+    .container{
+        width: 80%;
+        height: 100%;
+    }
+
+    input{
+        width: 80%;
+        margin-left: 25px;
+    }
+    label{
+        font-size: 10px;
+    }
+  }
